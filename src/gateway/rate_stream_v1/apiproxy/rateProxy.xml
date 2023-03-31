@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<APIProxy revision="1" name="rate">
+    <ConfigurationVersion majorVersion="4" minorVersion="0" />
+    <Description>Rate Stream</Description>
+    <Policies>
+        <!-- Values will be populated by deployment script -->
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>rate</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <!-- Values will be populated by deployment script -->
+    </Resources>
+    <TargetServers/>
+    <TargetEndpoints>
+        <!-- Values will be populated by deployment script -->
+            <TargetEndpoint>rate_stream</TargetEndpoint>
+    </TargetEndpoints>
+    <validate>false</validate>
+</APIProxy>
